@@ -1,0 +1,58 @@
+body {
+  color: blue;
+}
+
+h1 {
+text-align: center;
+font-style: bold;
+font-size: 200mm;
+border: 5px solid Violet;
+background-color: violet;
+font-family: courier;
+font-weight: bold;
+
+}
+
+.entry-author {
+ border-radius: 50%;
+ display: block;
+  width: 30%;
+  height: auto;
+  align-items: center;
+
+}
+
+}
+p1 {
+
+font size: 5mm
+font-family: sans-serif;
+font-style: italic;
+
+
+}
+
+
+.Facts {
+font-style: italic;
+color: green;
+font-size: 5mm;
+font-family: georgia;
+font-variant: small-caps;
+
+}
+
+p {
+font-style: normal;
+font-size: 8mm;
+color: blue;
+text-align: center;
+border-bottom: 5px solid black;
+font-family: georgia;
+
+}
+
+
+button {
+  align: centre
+}
