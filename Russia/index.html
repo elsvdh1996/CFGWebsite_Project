@@ -4,16 +4,15 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="styles.css">
     <title>Russia</title>
+    <!-- bootstrap template  -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- Optional JavaScript - JS is not working and I dont understand why - I want the page to open and for the date and time to come up when the page loads, with a welcome note-->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   </head>
-
-  <!-- bootstrap template  -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
-  <!-- Optional JavaScript - JS is not working and I dont understand why - I want the page to open and for the date and time to come up when the page loads, with a welcome note-->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
     <body>
       <html class=" js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths" lang="en-US" prefix="og: http://ogp.me/ns#  fb: http://ogp.me/ns/fb#" style=""><!--<![endif]--><head>
@@ -40,11 +39,37 @@
             	</nav>
 
   <body>
+    <!-- Start of Top-Bar -->
+        <header class="" id="top">
+            <nav class="mainnav ">
+            <section class="top-bar-section ">
+
+  <!-- Bootstrap drop down to other pages -->
+              <div class="dropdown">
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Travel
+    </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+      <a class="dropdown-item" href="#">Homepage</a>
+      <a class="dropdown-item" href="#">Antartica</a>
+      <a class="dropdown-item" href="#">Brazil</a>
+      <a class="dropdown-item" href="#">Russia</a>
+    </div>
+
+  </div>
+
+              </section>
+          </nav>
+          <!-- End of Top-Bar -->
+      </header>
+
+  </div>
     <div class="container">
       <img src="banner.jpg" alt="banner" style="width:100%;">
       <div class="centered">Russia</div>
       <div class="name">by Mun Yin Chong</div>
     </div>
+
 
     <h1>
       St Petersburg was the stop that most excited me on my recent <a href="https://www.princess.com/find/searchResults.do?ship=GP&subTrade=ES&cid=dm_affiliate_affiliate_awin_http%3A%2F%2Fwww.danflyingsolo.com_brand_na&awc=12208_1575303365_aa4a40cd82be8eeffa1eb3ea6990f1de">Princess Cruise</a> through the Baltic Sea. The best thing about visiting Russia on a cruise is that you don’t require a visa (which can be costly and time-consuming) if you have booked yourself on an authorised excursion before arrival.
@@ -115,9 +140,12 @@
         <label for="subject">Subject</label>
    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
-   <input type="submit" value="Submit">
+   <input type="submit" value="Submit" class="submit">
 
  </form>
 </div>
 
+<script src="javascript.js"></script>
+
+</body>
 </html>
