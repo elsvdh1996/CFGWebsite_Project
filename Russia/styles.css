@@ -14,36 +14,60 @@
 }
 
 .name{
-  font-size: 2.5em;
+  font-size: 1.5em;
   position: absolute;
   top: 90%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 .name:hover{
-  font-size: 5em;
+  font-size: 2em;
 }
 
-body{
-  text-align: justify;
-  font-family: Georgia;
+.carousel-inner > .carousel-item > img {
+  width:640px;
+  height:640px;
 }
 
 h1{
-  font-size: 20px;
+  font-size: 2em;
+  text-align: center;
+  font-family: Georgia;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h2{
-  font-size: 15px;
+  font-size: 2.5em;
+  color: dodgerblue;
+  text-align: center;
+  font-family: Georgia;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h3{
-  font-size: 20px;
-  color: dodgerblue;
+  font-size: 2em;
+  text-align: justify;
+  font-family: Georgia;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h4{
-  font-size: 15px;
+  font-size: 1.5em;
+  text-align: justify;
+  font-family: Georgia;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .center {
