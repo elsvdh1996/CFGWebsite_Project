@@ -74,6 +74,9 @@ h3 {
 
 }
 
+li {
+  list-style-type: none;
+}
 .container {
 color: green;
 list-style: none;
