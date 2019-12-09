@@ -13,7 +13,8 @@ $(document).ready(function() { //LISTENING FOR WHEN IT IS READY
 
   $('h1').css('color', 'blue'); // CHANGE THE COLOUR OF THE H1
 
-  $('.submit').click(function(event) { // ALERT WHEN THE BUTTON IS CLICKED
+  $('.submit').click(function(e) { // ALERT WHEN THE BUTTON IS CLICKED
+    e.preventDefault()
     alert('Your comment has been submitted');
   })
 
