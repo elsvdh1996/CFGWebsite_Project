@@ -5,6 +5,14 @@
   border-radius: 50%;
 }
 
+.welcome-banner {
+  background-color: #4a90d9;
+  color: #ffffff;
+  text-align: center;
+  padding: 15px;
+  font-size: 1.1rem;
+}
+
 .footer {
   padding: 20px; /* Some padding */
   text-align: center; /* Center text*/
